@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(117, 51, 119);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(97, 44, 99);
+            padding: 12px;
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color:  rgb(255, 192, 224) ;
+            font-size: 1.02rem;
+        }
+
+
+
+        .left {
+            font-size: 40px;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+
+            margin: 70px 0;
+            font-size: 2rem;
+        }
+
+        .rightsection img {
+            width: 100%;
+            margin: -50px 0;
+        }
+
+        .purple {
+            color: rgb(51, 13, 51);
+        }
+
+        #element {
+            color: rgb(51, 13, 51);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 65vh;
+
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(232, 152, 216);
+            height: 2px;
+            margin: 30px 50px;
+        }
+
+        .secondsection .box {
+            height: 2px;
+            width: 70vw;
+            background-color: beige;
+            margin: 50px 100px;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            background-color: beige;
+            height: 93px;
+            width: 1.4px;
+            margin: 0px 100px;
+        }
+
+        .image-top {
+
+            width: 2.5vw;
+            height: 4vh;
+            position: relative;
+            top: -35px;
+            left: -18px;
+
+
+        }
+
+        .vertical-text {
+            position: relative;
+            top: 58px;
+            left: -46px;
+            width: 190px;
+        }
+
+        .vertical-text1 {
+            width: 137px;
+            position: relative;
+            top: 58px;
+            left: -46px;
+        }
+
+        .vertical-desc {
+            width: 140px;
+            height: 2px;
+            left: -48px;
+            position: relative;
+            top: 72px;
+            color: black;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(97, 44, 99);
+            height: 250px;
+            padding: 20px 120px;
+
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer > div {
+            width: 200px;
+        }
+
+        .footer-right {
+            text-align: center;
+            padding: 70px 290px;
+            
+        }
+        .button .btn{
+            padding: 6px;
+            margin: 2px 4px;
+            background-color: rgb(255, 192, 224) ;
+            border: 2px solid rgb(128, 70, 125);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button .btn a:hover{
+            color: rgb(196, 19, 220);
+            font-size: 0.905rem;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Ishita's Portfolio </div>
+            <div class="right">
+                <ul>
+                    <li> <a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a> </li>
+
+
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi! My name is <span class="purple"> Ishita</span>
+                <div> I am a Passionate <div><span id="element">Web Developer</span></div>
+                <div class="button">
+                    <button class="btn"> <a>Download Resume</a> </button>
+                    <button class="btn"> <a>Visit Github </a></button>
+                </div>
+
+
+                </div>
+            </div>
+
+            <div class="rightsection">
+                <img src="female-web-developer-writing-code-lines-6557759-5501007.png" alt="">
+
+
+
+        </section>
+        <hr>
+        <section class="secondsection">
+            <h1> Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="html image.webp" alt="" class="image-top">
+                    <div class="vertical-text1"> HTML Developer
+                        <div>(2010-2012)</div>
+                    </div>
+                    <div class="vertical-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
+                        molestiae. Numquam tenetur et beatae corrupti quia quod voluptatum ratione nesciunt aliquid
+                        soluta! Debitis.</div>
+                </div>
+                <div class="vertical">
+                    <img src="insta logo.png" alt="" class="image-top">
+                    <div class="vertical-text"> Node.js Developer Instagram (2012-2014)</div>
+                    <div class="vertical-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
+                        molestiae. Numquam tenetur et beatae corrupti quia quod voluptatum ratione nesciunt aliquid
+                        soluta! Debitis.</div>
+                </div>
+                <div class="vertical">
+                    <img src="twitter logo.png" alt="" class="image-top">
+                    <div class="vertical-text"> HTML Developer Twitter (2014-2016)</div>
+                    <div class="vertical-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
+                        molestiae. Numquam tenetur et beatae corrupti quia quod voluptatum ratione nesciunt aliquid
+                        soluta! Debitis.</div>
+                </div>
+                <div class="vertical">
+                    <img src="Facebook-logo-2.png" alt="" class="image-top">
+                    <div class="vertical-text"> Software Developer Facebook (2016-2018)</div>
+                    <div class="vertical-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
+                        molestiae. Numquam tenetur et beatae corrupti quia quod voluptatum ratione nesciunt aliquid
+                        soluta! Debitis.</div>
+                </div>
+                <div class="vertical">
+                    <img src="youtube logo.png" alt="" class="image-top">
+                    <div class="vertical-text"> Software Developer Youtube (2018-Present)</div>
+                    <div class="vertical-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
+                        molestiae. Numquam tenetur et beatae corrupti quia quod voluptatum ratione nesciunt aliquid
+                        soluta! Debitis.</div>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3> Ishita's Portfolio website</h3>
+            </div>
+            <div class="footer-sec">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+                </div>
+            </div>
+            
+            <div class="footer-right">
+                copyright &#169; ishitasportfolio.com | All rights reserved.
+            </div>
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Developer', 'Web Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>

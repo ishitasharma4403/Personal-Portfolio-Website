@@ -1,2 +1,186 @@
- 
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(117, 51, 119);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(97, 44, 99);
+            padding: 12px;
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color:  rgb(255, 192, 224) ;
+            font-size: 1.02rem;
+        }
+
+
+
+        .left {
+            font-size: 40px;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+
+            margin: 70px 0;
+            font-size: 2rem;
+        }
+
+        .rightsection img {
+            width: 100%;
+            margin: -50px 0;
+        }
+
+        .purple {
+            color: rgb(51, 13, 51);
+        }
+
+        #element {
+            color: rgb(51, 13, 51);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 65vh;
+
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(232, 152, 216);
+            height: 2px;
+            margin: 30px 50px;
+        }
+
+        .secondsection .box {
+            height: 2px;
+            width: 70vw;
+            background-color: beige;
+            margin: 50px 100px;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            background-color: beige;
+            height: 93px;
+            width: 1.4px;
+            margin: 0px 100px;
+        }
+
+        .image-top {
+
+            width: 2.5vw;
+            height: 4vh;
+            position: relative;
+            top: -35px;
+            left: -18px;
+
+
+        }
+
+        .vertical-text {
+            position: relative;
+            top: 58px;
+            left: -46px;
+            width: 190px;
+        }
+
+        .vertical-text1 {
+            width: 137px;
+            position: relative;
+            top: 58px;
+            left: -46px;
+        }
+
+        .vertical-desc {
+            width: 140px;
+            height: 2px;
+            left: -48px;
+            position: relative;
+            top: 72px;
+            color: black;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(97, 44, 99);
+            height: 250px;
+            padding: 20px 120px;
+
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer > div {
+            width: 200px;
+        }
+
+        .footer-right {
+            text-align: center;
+            padding: 70px 290px;
+            
+        }
+        .button .btn{
+            padding: 6px;
+            margin: 2px 4px;
+            background-color: rgb(255, 192, 224) ;
+            border: 2px solid rgb(128, 70, 125);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button .btn a:hover{
+            color: rgb(196, 19, 220);
+            font-size: 0.905rem;
+            
+        } 
        
